@@ -36,14 +36,9 @@ header {
   flex: 1;
   margin-top: 20px;
 }
-.right-box {
-  float: left;
-  width: 243px;
+.product-description {
+  flex: 1;
   margin-top: 20px;
-}
-.shoes {
-  float: left;
-  margin-right: 40px;
 }
 /* SMALLER ELEMENTS */
 h1 {
