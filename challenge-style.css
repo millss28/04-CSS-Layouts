@@ -3,6 +3,7 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,20 +21,13 @@ header {
   position: relative;
 }
 
-.left-box {
-  float: left;
-  width: 243px;
+.product-info {
   margin-top: 20px;
-  margin-right: 40px;
 }
-.right-box {
-  float: left;
-  width: 243px;
+.product-description {
   margin-top: 20px;
 }
 .shoes {
-  float: left;
-  margin-right: 40px;
 }
 /* SMALLER ELEMENTS */
 h1 {
@@ -59,30 +53,22 @@ h3 {
 .dollar {
   font-size: 24px;
   font-weight: bolder;
-  float: left;
 }
 
 .shipping {
   color: #777;
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: 20px;
   margin-left: 75px;
-  float: right;
-  margin-top: 8px;
 }
 
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 10px;
 }
 .dress {
-  clear: both;
   margin-bottom: 10px;
-  font-size: 16px;
 }
 .blue {
   background-color: #2f6ee2;
