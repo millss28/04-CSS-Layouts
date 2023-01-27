@@ -36,11 +36,15 @@ header {
   flex: 1;
   margin-top: 20px;
 }
-.product-details {
-  flex: 1;
+.right-box {
+  float: left;
+  width: 243px;
   margin-top: 20px;
 }
-
+.shoes {
+  float: left;
+  margin-right: 40px;
+}
 /* SMALLER ELEMENTS */
 h1 {
   text-align: center;
